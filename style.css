@@ -25,6 +25,7 @@
 width: 200px;
 background-color: gray;
 margin-left: 12px;
+margin-top:auto;
 }
 
 .empire{
@@ -112,6 +113,7 @@ margin:auto;
 
 .Vader-info{
     background-color: rgba(128, 128, 128, 0.413);
+    width: 93%;
 }
 
 .more-info{
@@ -149,4 +151,8 @@ margin:auto;
     .welcome{
       display: none;
     }
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
 }
