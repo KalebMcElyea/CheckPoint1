@@ -1,0 +1,152 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.starwars-background{
+ background-image: url("./StarWars.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100%;
+ object-fit: cover;
+
+}
+
+.resistance{
+    text-shadow: 1px 1px 4px black;
+    margin-left: 12px;
+}
+
+
+.email{
+width: 200px;
+background-color: gray;
+margin-left: 12px;
+}
+
+.empire{
+    text-shadow: 6px 6px 8px black;
+}
+.empire-text-white{
+color: white;
+background-color:rgba(23, 22, 22, 0.475); 
+width: 50%;
+padding:10px;
+border: 5px gray;
+margin:auto;
+}
+
+/* .greeting-card{
+    background:gray ;
+    opacity: .8;
+} */
+
+.item-card{
+    width: 50%
+}
+
+.quote-card-1{
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.447);
+    height: -20px;
+}
+
+.item-card{
+    float: right;
+    
+}
+
+.quote-card-1{
+    width:30%;
+    background-color:rgba(0, 0, 0, 0.447);
+    height: -20px;
+    margin-left:15px;
+}
+
+.quote-card-2{
+    width:50%;
+    background-color: #00000072;
+    height: -20px;
+    margin-left:15px;
+}
+
+.quote-card-3{
+    width: 50%;
+    background-color:#00000072;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.quote-card-4{
+    width:50%;
+    background-color:#00000072;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.quote-card-5{
+    width:50%;
+    background-color:#00000072;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.quote-card-6{
+    width:50%;
+    background-color:#00000072;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.symbol{
+    justify-content: center;
+}
+
+.darth-vader.jpg{
+    height: 30%;
+    max-width: 20%;
+}
+
+.Vader-info{
+    background-color: rgba(128, 128, 128, 0.413);
+}
+
+.more-info{
+    margin-left:80%;
+}
+
+.lucas{
+    margin-left:30px;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.413);
+    width:50%;
+}
+
+.lucas-vader{
+    margin-left:30px;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.413);
+    width:70%;
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+.more-info{
+    border-radius: 5px;
+}
+
+.side{
+    overflow-x:hidden;
+}
+
+
+    @media only screen and (max-width: 600px) {
+    .welcome{
+      display: none;
+    }
+}
